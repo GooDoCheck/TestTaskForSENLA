@@ -1,12 +1,15 @@
+package task_1;
+
 import java.util.Scanner;
 
-public class TaskOne {
+public class Check_positive_and_prime_number {
     public static boolean integerCheck = false;
     public static float numberFloat =  0;
     public static int numberInteger = 0;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите целое число: ");
         numberFloat = scanner.nextFloat();
         integerNumberCheck(numberFloat);
         if (integerCheck){
